@@ -1,0 +1,44 @@
+@keyframes moveInLeft {
+    /* when the animation start  */
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem); /* directio goes from the left to the right */
+    }
+    /*When the animation is 80% complete */
+    80%{
+        transform:translateX(1rem);
+    }
+    /* when the animation finish*/
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    /* when the animation start  */
+    0%{
+        opacity: 0;
+        transform: translateX(1rem); /* directio goes from the left to the right */
+
+    }
+    /*When the animation is 80% complete */
+    80%{
+        transform:translateX(-1rem);
+    }
+    /* when the animation finish*/
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom { 
+    0% {
+        opacity: 0;
+        transform:translateY(3rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
